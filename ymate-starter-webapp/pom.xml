@@ -38,26 +38,14 @@
             <artifactId>ymate-platform-configuration</artifactId>
         </dependency>
         <dependency>
-            <groupId>net.ymate.platform</groupId>
-            <artifactId>ymate-platform-log-jcl</artifactId>
+            <groupId>net.ymate.starter</groupId>
+            <artifactId>ymate-starter-log</artifactId>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>net.ymate.platform</groupId>
-            <artifactId>ymate-platform-log-slf4j</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>net.ymate.platform</groupId>
-            <artifactId>ymate-platform-webmvc</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>net.ymate.framework</groupId>
-            <artifactId>ymate-framework-commons</artifactId>
-            <version>${ymate.framework.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>net.ymate.framework</groupId>
-            <artifactId>ymate-framework-core</artifactId>
-            <version>${ymate.framework.version}</version>
+            <groupId>net.ymate.starter</groupId>
+            <artifactId>ymate-starter-framework</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>

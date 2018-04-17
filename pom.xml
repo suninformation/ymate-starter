@@ -14,8 +14,10 @@
     <description>YMP Starter Parent Archetype</description>
 
     <modules>
-        <module>ymate-starter-webapp</module>
+        <module>ymate-starter-framework</module>
         <module>ymate-starter-jdbc</module>
+        <module>ymate-starter-log</module>
+        <module>ymate-starter-webapp</module>
     </modules>
 
     <properties>
