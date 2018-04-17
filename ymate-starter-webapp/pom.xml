@@ -38,6 +38,10 @@
             <artifactId>ymate-platform-configuration</artifactId>
         </dependency>
         <dependency>
+            <groupId>net.ymate.platform</groupId>
+            <artifactId>ymate-platform-webmvc</artifactId>
+        </dependency>
+        <dependency>
             <groupId>net.ymate.starter</groupId>
             <artifactId>ymate-starter-log</artifactId>
             <version>${project.version}</version>
