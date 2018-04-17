@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>ymate-starter-parent</artifactId>
+        <groupId>net.ymate.starter</groupId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>ymate-starter-jdbc</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>ymate-starter-jdbc</name>
+    <url>http://www.ymate.net/</url>
+    <description>YMP Starter JDBC Archetype</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.ymate.platform</groupId>
+            <artifactId>ymate-platform-persistence-jdbc</artifactId>
+            <version>${ymate.platform.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-dbcp</groupId>
+            <artifactId>commons-dbcp</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.mchange</groupId>
+            <artifactId>c3p0</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.noraui</groupId>
+            <artifactId>ojdbc8</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+        </dependency>
+    </dependencies>
+</project>
