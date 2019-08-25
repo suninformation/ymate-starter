@@ -7,11 +7,10 @@
     <parent>
         <artifactId>ymate-starter-parent</artifactId>
         <groupId>net.ymate.starter</groupId>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </parent>
 
     <artifactId>ymate-starter-webapp</artifactId>
-    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>ymate-starter-webapp</name>

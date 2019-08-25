@@ -7,11 +7,10 @@
     <parent>
         <artifactId>ymate-starter-parent</artifactId>
         <groupId>net.ymate.starter</groupId>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </parent>
 
     <artifactId>ymate-starter-framework</artifactId>
-    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>ymate-starter-framework</name>
@@ -43,12 +42,12 @@
         <dependency>
             <groupId>com.thoughtworks.xstream</groupId>
             <artifactId>xstream</artifactId>
-            <version>1.4.10</version>
+            <version>1.4.11.1</version>
         </dependency>
         <dependency>
             <groupId>com.google.zxing</groupId>
             <artifactId>core</artifactId>
-            <version>3.3.2</version>
+            <version>3.3.3</version>
         </dependency>
     </dependencies>
 </project>
